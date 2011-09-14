@@ -200,6 +200,16 @@
 		DA62C97D14214819005F351B /* thresh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62C94B14214818005F351B /* thresh.cpp */; };
 		DA62C97E14214819005F351B /* undistort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62C94C14214818005F351B /* undistort.cpp */; };
 		DA62C97F14214819005F351B /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62C94D14214818005F351B /* utils.cpp */; };
+		DA62C98514214A47005F351B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA62C794142139AF005F351B /* Foundation.framework */; };
+		DA62C99214214AAD005F351B /* ts_gtest.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C99014214AAD005F351B /* ts_gtest.h */; };
+		DA62C99314214AAD005F351B /* ts.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DA62C99114214AAD005F351B /* ts.hpp */; };
+		DA62C99A14214AC2005F351B /* precomp.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DA62C99414214AC2005F351B /* precomp.hpp */; };
+		DA62C99B14214AC2005F351B /* precomp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62C99514214AC2005F351B /* precomp.cpp */; };
+		DA62C99C14214AC2005F351B /* ts_arrtest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62C99614214AC2005F351B /* ts_arrtest.cpp */; };
+		DA62C99D14214AC2005F351B /* ts_func.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62C99714214AC2005F351B /* ts_func.cpp */; };
+		DA62C99E14214AC2005F351B /* ts_gtest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62C99814214AC2005F351B /* ts_gtest.cpp */; };
+		DA62C99F14214AC2005F351B /* ts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62C99914214AC2005F351B /* ts.cpp */; };
+		DA62C9A114214BEB005F351B /* crt_externs.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9A014214BEB005F351B /* crt_externs.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -211,6 +221,13 @@
 			remoteInfo = zlib;
 		};
 		DA62C914142147D5005F351B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA62C788142139AF005F351B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA62C8A714213C05005F351B;
+			remoteInfo = opencv_core;
+		};
+		DA62C98C14214A66005F351B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DA62C788142139AF005F351B /* Project object */;
 			proxyType = 1;
@@ -419,6 +436,17 @@
 		DA62C94B14214818005F351B /* thresh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = thresh.cpp; sourceTree = "<group>"; };
 		DA62C94C14214818005F351B /* undistort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = undistort.cpp; sourceTree = "<group>"; };
 		DA62C94D14214818005F351B /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
+		DA62C98414214A47005F351B /* libopencv_ts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libopencv_ts.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA62C98814214A47005F351B /* opencv_ts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "opencv_ts-Prefix.pch"; sourceTree = "<group>"; };
+		DA62C99014214AAD005F351B /* ts_gtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ts_gtest.h; path = opencv2/ts/ts_gtest.h; sourceTree = SOURCE_ROOT; };
+		DA62C99114214AAD005F351B /* ts.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ts.hpp; path = opencv2/ts/ts.hpp; sourceTree = SOURCE_ROOT; };
+		DA62C99414214AC2005F351B /* precomp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = precomp.hpp; sourceTree = "<group>"; };
+		DA62C99514214AC2005F351B /* precomp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = precomp.cpp; sourceTree = "<group>"; };
+		DA62C99614214AC2005F351B /* ts_arrtest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ts_arrtest.cpp; sourceTree = "<group>"; };
+		DA62C99714214AC2005F351B /* ts_func.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ts_func.cpp; sourceTree = "<group>"; };
+		DA62C99814214AC2005F351B /* ts_gtest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ts_gtest.cpp; sourceTree = "<group>"; };
+		DA62C99914214AC2005F351B /* ts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ts.cpp; sourceTree = "<group>"; };
+		DA62C9A014214BEB005F351B /* crt_externs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crt_externs.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -462,12 +490,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DA62C98114214A47005F351B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA62C98514214A47005F351B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		DA62C786142139AF005F351B = {
 			isa = PBXGroup;
 			children = (
+				DA62C98614214A47005F351B /* opencv_ts */,
 				DA62C90C142147A3005F351B /* opencv_imgproc */,
 				DA62C8AA14213C05005F351B /* opencv_core */,
 				DA62C82614213B37005F351B /* libjpeg */,
@@ -486,6 +523,7 @@
 				DA62C82414213B37005F351B /* liblibjpeg.a */,
 				DA62C8A814213C05005F351B /* libopencv_core.a */,
 				DA62C90A142147A3005F351B /* libopencv_imgproc.a */,
+				DA62C98414214A47005F351B /* libopencv_ts.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -846,6 +884,47 @@
 			name = Header;
 			sourceTree = "<group>";
 		};
+		DA62C98614214A47005F351B /* opencv_ts */ = {
+			isa = PBXGroup;
+			children = (
+				DA62C98F14214A82005F351B /* Header */,
+				DA62C98E14214A7F005F351B /* Source */,
+				DA62C98714214A47005F351B /* Supporting Files */,
+			);
+			path = opencv_ts;
+			sourceTree = "<group>";
+		};
+		DA62C98714214A47005F351B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA62C98814214A47005F351B /* opencv_ts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA62C98E14214A7F005F351B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DA62C99414214AC2005F351B /* precomp.hpp */,
+				DA62C99514214AC2005F351B /* precomp.cpp */,
+				DA62C99614214AC2005F351B /* ts_arrtest.cpp */,
+				DA62C99714214AC2005F351B /* ts_func.cpp */,
+				DA62C99814214AC2005F351B /* ts_gtest.cpp */,
+				DA62C99914214AC2005F351B /* ts.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		DA62C98F14214A82005F351B /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				DA62C9A014214BEB005F351B /* crt_externs.h */,
+				DA62C99014214AAD005F351B /* ts_gtest.h */,
+				DA62C99114214AAD005F351B /* ts.hpp */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -927,6 +1006,17 @@
 				DA62C95214214818005F351B /* _kdtree.hpp in Headers */,
 				DA62C95314214818005F351B /* gcgraph.hpp in Headers */,
 				DA62C95414214818005F351B /* precomp.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA62C98214214A47005F351B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA62C99214214AAD005F351B /* ts_gtest.h in Headers */,
+				DA62C99314214AAD005F351B /* ts.hpp in Headers */,
+				DA62C99A14214AC2005F351B /* precomp.hpp in Headers */,
+				DA62C9A114214BEB005F351B /* crt_externs.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1020,6 +1110,24 @@
 			productReference = DA62C90A142147A3005F351B /* libopencv_imgproc.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		DA62C98314214A47005F351B /* opencv_ts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA62C98914214A47005F351B /* Build configuration list for PBXNativeTarget "opencv_ts" */;
+			buildPhases = (
+				DA62C98014214A47005F351B /* Sources */,
+				DA62C98114214A47005F351B /* Frameworks */,
+				DA62C98214214A47005F351B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA62C98D14214A66005F351B /* PBXTargetDependency */,
+			);
+			name = opencv_ts;
+			productName = opencv_ts;
+			productReference = DA62C98414214A47005F351B /* libopencv_ts.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1037,6 +1145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				DA62C98314214A47005F351B /* opencv_ts */,
 				DA62C909142147A3005F351B /* opencv_imgproc */,
 				DA62C8A714213C05005F351B /* opencv_core */,
 				DA62C82314213B37005F351B /* libjpeg */,
@@ -1224,6 +1333,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DA62C98014214A47005F351B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA62C99B14214AC2005F351B /* precomp.cpp in Sources */,
+				DA62C99C14214AC2005F351B /* ts_arrtest.cpp in Sources */,
+				DA62C99D14214AC2005F351B /* ts_func.cpp in Sources */,
+				DA62C99E14214AC2005F351B /* ts_gtest.cpp in Sources */,
+				DA62C99F14214AC2005F351B /* ts.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1236,6 +1357,11 @@
 			isa = PBXTargetDependency;
 			target = DA62C8A714213C05005F351B /* opencv_core */;
 			targetProxy = DA62C914142147D5005F351B /* PBXContainerItemProxy */;
+		};
+		DA62C98D14214A66005F351B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA62C8A714213C05005F351B /* opencv_core */;
+			targetProxy = DA62C98C14214A66005F351B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1393,6 +1519,32 @@
 			};
 			name = Release;
 		};
+		DA62C98A14214A47005F351B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/opencv_ts.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "opencv_ts/opencv_ts-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/\"";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA62C98B14214A47005F351B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/opencv_ts.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "opencv_ts/opencv_ts-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/\"";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1442,6 +1594,14 @@
 			buildConfigurations = (
 				DA62C910142147A3005F351B /* Debug */,
 				DA62C911142147A3005F351B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA62C98914214A47005F351B /* Build configuration list for PBXNativeTarget "opencv_ts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA62C98A14214A47005F351B /* Debug */,
+				DA62C98B14214A47005F351B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
