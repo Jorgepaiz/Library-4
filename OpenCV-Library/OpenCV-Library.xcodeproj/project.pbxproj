@@ -210,6 +210,47 @@
 		DA62C99E14214AC2005F351B /* ts_gtest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62C99814214AC2005F351B /* ts_gtest.cpp */; };
 		DA62C99F14214AC2005F351B /* ts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62C99914214AC2005F351B /* ts.cpp */; };
 		DA62C9A114214BEB005F351B /* crt_externs.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9A014214BEB005F351B /* crt_externs.h */; };
+		DA62C9A714214CD4005F351B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA62C794142139AF005F351B /* Foundation.framework */; };
+		DA62C9D614214D50005F351B /* all_indices.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9B214214D50005F351B /* all_indices.h */; };
+		DA62C9D714214D50005F351B /* allocator.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9B314214D50005F351B /* allocator.h */; };
+		DA62C9D814214D50005F351B /* any.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9B414214D50005F351B /* any.h */; };
+		DA62C9D914214D50005F351B /* autotuned_index.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9B514214D50005F351B /* autotuned_index.h */; };
+		DA62C9DA14214D50005F351B /* composite_index.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9B614214D50005F351B /* composite_index.h */; };
+		DA62C9DB14214D50005F351B /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9B714214D50005F351B /* config.h */; };
+		DA62C9DC14214D50005F351B /* defines.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9B814214D50005F351B /* defines.h */; };
+		DA62C9DD14214D50005F351B /* dist.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9B914214D50005F351B /* dist.h */; };
+		DA62C9DE14214D50005F351B /* dummy.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9BA14214D50005F351B /* dummy.h */; };
+		DA62C9DF14214D50005F351B /* dynamic_bitset.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9BB14214D50005F351B /* dynamic_bitset.h */; };
+		DA62C9E014214D50005F351B /* general.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9BC14214D50005F351B /* general.h */; };
+		DA62C9E114214D50005F351B /* ground_truth.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9BD14214D50005F351B /* ground_truth.h */; };
+		DA62C9E214214D50005F351B /* hdf5.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9BE14214D50005F351B /* hdf5.h */; };
+		DA62C9E314214D50005F351B /* heap.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9BF14214D50005F351B /* heap.h */; };
+		DA62C9E414214D50005F351B /* hierarchical_clustering_index.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9C014214D50005F351B /* hierarchical_clustering_index.h */; };
+		DA62C9E514214D50005F351B /* index_testing.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9C114214D50005F351B /* index_testing.h */; };
+		DA62C9E614214D50005F351B /* kdtree_index.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9C214214D50005F351B /* kdtree_index.h */; };
+		DA62C9E714214D50005F351B /* kdtree_single_index.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9C314214D50005F351B /* kdtree_single_index.h */; };
+		DA62C9E814214D50005F351B /* kmeans_index.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9C414214D50005F351B /* kmeans_index.h */; };
+		DA62C9E914214D50005F351B /* linear_index.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9C514214D50005F351B /* linear_index.h */; };
+		DA62C9EA14214D50005F351B /* logger.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9C614214D50005F351B /* logger.h */; };
+		DA62C9EB14214D50005F351B /* lsh_index.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9C714214D50005F351B /* lsh_index.h */; };
+		DA62C9EC14214D50005F351B /* lsh_table.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9C814214D50005F351B /* lsh_table.h */; };
+		DA62C9ED14214D50005F351B /* matrix.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9C914214D50005F351B /* matrix.h */; };
+		DA62C9EE14214D50005F351B /* nn_index.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9CA14214D50005F351B /* nn_index.h */; };
+		DA62C9EF14214D50005F351B /* object_factory.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9CB14214D50005F351B /* object_factory.h */; };
+		DA62C9F014214D50005F351B /* params.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9CC14214D50005F351B /* params.h */; };
+		DA62C9F114214D50005F351B /* random.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9CD14214D50005F351B /* random.h */; };
+		DA62C9F214214D50005F351B /* result_set.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9CE14214D50005F351B /* result_set.h */; };
+		DA62C9F314214D50005F351B /* sampling.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9CF14214D50005F351B /* sampling.h */; };
+		DA62C9F414214D50005F351B /* saving.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9D014214D50005F351B /* saving.h */; };
+		DA62C9F514214D50005F351B /* simplex_downhill.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9D114214D50005F351B /* simplex_downhill.h */; };
+		DA62C9F614214D50005F351B /* timer.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9D214214D50005F351B /* timer.h */; };
+		DA62C9F714214D50005F351B /* flann_base.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9D314214D50005F351B /* flann_base.hpp */; };
+		DA62C9F814214D50005F351B /* flann.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9D414214D50005F351B /* flann.hpp */; };
+		DA62C9F914214D50005F351B /* miniflann.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9D514214D50005F351B /* miniflann.hpp */; };
+		DA62C9FE14214D9A005F351B /* precomp.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DA62C9FA14214D9A005F351B /* precomp.hpp */; };
+		DA62C9FF14214D9A005F351B /* flann.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62C9FB14214D9A005F351B /* flann.cpp */; };
+		DA62CA0014214D9A005F351B /* miniflann.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62C9FC14214D9A005F351B /* miniflann.cpp */; };
+		DA62CA0114214D9A005F351B /* precomp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62C9FD14214D9A005F351B /* precomp.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -228,6 +269,13 @@
 			remoteInfo = opencv_core;
 		};
 		DA62C98C14214A66005F351B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA62C788142139AF005F351B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA62C8A714213C05005F351B;
+			remoteInfo = opencv_core;
+		};
+		DA62C9B014214CFC005F351B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DA62C788142139AF005F351B /* Project object */;
 			proxyType = 1;
@@ -447,6 +495,48 @@
 		DA62C99814214AC2005F351B /* ts_gtest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ts_gtest.cpp; sourceTree = "<group>"; };
 		DA62C99914214AC2005F351B /* ts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ts.cpp; sourceTree = "<group>"; };
 		DA62C9A014214BEB005F351B /* crt_externs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crt_externs.h; sourceTree = "<group>"; };
+		DA62C9A614214CD4005F351B /* libopencv_flann.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libopencv_flann.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA62C9AA14214CD4005F351B /* opencv_flann-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "opencv_flann-Prefix.pch"; sourceTree = "<group>"; };
+		DA62C9B214214D50005F351B /* all_indices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = all_indices.h; path = opencv2/flann/all_indices.h; sourceTree = SOURCE_ROOT; };
+		DA62C9B314214D50005F351B /* allocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = allocator.h; path = opencv2/flann/allocator.h; sourceTree = SOURCE_ROOT; };
+		DA62C9B414214D50005F351B /* any.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = any.h; path = opencv2/flann/any.h; sourceTree = SOURCE_ROOT; };
+		DA62C9B514214D50005F351B /* autotuned_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = autotuned_index.h; path = opencv2/flann/autotuned_index.h; sourceTree = SOURCE_ROOT; };
+		DA62C9B614214D50005F351B /* composite_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = composite_index.h; path = opencv2/flann/composite_index.h; sourceTree = SOURCE_ROOT; };
+		DA62C9B714214D50005F351B /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = opencv2/flann/config.h; sourceTree = SOURCE_ROOT; };
+		DA62C9B814214D50005F351B /* defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = defines.h; path = opencv2/flann/defines.h; sourceTree = SOURCE_ROOT; };
+		DA62C9B914214D50005F351B /* dist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dist.h; path = opencv2/flann/dist.h; sourceTree = SOURCE_ROOT; };
+		DA62C9BA14214D50005F351B /* dummy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dummy.h; path = opencv2/flann/dummy.h; sourceTree = SOURCE_ROOT; };
+		DA62C9BB14214D50005F351B /* dynamic_bitset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dynamic_bitset.h; path = opencv2/flann/dynamic_bitset.h; sourceTree = SOURCE_ROOT; };
+		DA62C9BC14214D50005F351B /* general.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = general.h; path = opencv2/flann/general.h; sourceTree = SOURCE_ROOT; };
+		DA62C9BD14214D50005F351B /* ground_truth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ground_truth.h; path = opencv2/flann/ground_truth.h; sourceTree = SOURCE_ROOT; };
+		DA62C9BE14214D50005F351B /* hdf5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hdf5.h; path = opencv2/flann/hdf5.h; sourceTree = SOURCE_ROOT; };
+		DA62C9BF14214D50005F351B /* heap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = heap.h; path = opencv2/flann/heap.h; sourceTree = SOURCE_ROOT; };
+		DA62C9C014214D50005F351B /* hierarchical_clustering_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hierarchical_clustering_index.h; path = opencv2/flann/hierarchical_clustering_index.h; sourceTree = SOURCE_ROOT; };
+		DA62C9C114214D50005F351B /* index_testing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = index_testing.h; path = opencv2/flann/index_testing.h; sourceTree = SOURCE_ROOT; };
+		DA62C9C214214D50005F351B /* kdtree_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kdtree_index.h; path = opencv2/flann/kdtree_index.h; sourceTree = SOURCE_ROOT; };
+		DA62C9C314214D50005F351B /* kdtree_single_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kdtree_single_index.h; path = opencv2/flann/kdtree_single_index.h; sourceTree = SOURCE_ROOT; };
+		DA62C9C414214D50005F351B /* kmeans_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kmeans_index.h; path = opencv2/flann/kmeans_index.h; sourceTree = SOURCE_ROOT; };
+		DA62C9C514214D50005F351B /* linear_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = linear_index.h; path = opencv2/flann/linear_index.h; sourceTree = SOURCE_ROOT; };
+		DA62C9C614214D50005F351B /* logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = logger.h; path = opencv2/flann/logger.h; sourceTree = SOURCE_ROOT; };
+		DA62C9C714214D50005F351B /* lsh_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lsh_index.h; path = opencv2/flann/lsh_index.h; sourceTree = SOURCE_ROOT; };
+		DA62C9C814214D50005F351B /* lsh_table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lsh_table.h; path = opencv2/flann/lsh_table.h; sourceTree = SOURCE_ROOT; };
+		DA62C9C914214D50005F351B /* matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = matrix.h; path = opencv2/flann/matrix.h; sourceTree = SOURCE_ROOT; };
+		DA62C9CA14214D50005F351B /* nn_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nn_index.h; path = opencv2/flann/nn_index.h; sourceTree = SOURCE_ROOT; };
+		DA62C9CB14214D50005F351B /* object_factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = object_factory.h; path = opencv2/flann/object_factory.h; sourceTree = SOURCE_ROOT; };
+		DA62C9CC14214D50005F351B /* params.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = params.h; path = opencv2/flann/params.h; sourceTree = SOURCE_ROOT; };
+		DA62C9CD14214D50005F351B /* random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = random.h; path = opencv2/flann/random.h; sourceTree = SOURCE_ROOT; };
+		DA62C9CE14214D50005F351B /* result_set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = result_set.h; path = opencv2/flann/result_set.h; sourceTree = SOURCE_ROOT; };
+		DA62C9CF14214D50005F351B /* sampling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sampling.h; path = opencv2/flann/sampling.h; sourceTree = SOURCE_ROOT; };
+		DA62C9D014214D50005F351B /* saving.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = saving.h; path = opencv2/flann/saving.h; sourceTree = SOURCE_ROOT; };
+		DA62C9D114214D50005F351B /* simplex_downhill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = simplex_downhill.h; path = opencv2/flann/simplex_downhill.h; sourceTree = SOURCE_ROOT; };
+		DA62C9D214214D50005F351B /* timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = timer.h; path = opencv2/flann/timer.h; sourceTree = SOURCE_ROOT; };
+		DA62C9D314214D50005F351B /* flann_base.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = flann_base.hpp; path = opencv2/flann/flann_base.hpp; sourceTree = SOURCE_ROOT; };
+		DA62C9D414214D50005F351B /* flann.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = flann.hpp; path = opencv2/flann/flann.hpp; sourceTree = SOURCE_ROOT; };
+		DA62C9D514214D50005F351B /* miniflann.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = miniflann.hpp; path = opencv2/flann/miniflann.hpp; sourceTree = SOURCE_ROOT; };
+		DA62C9FA14214D9A005F351B /* precomp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = precomp.hpp; sourceTree = "<group>"; };
+		DA62C9FB14214D9A005F351B /* flann.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = flann.cpp; sourceTree = "<group>"; };
+		DA62C9FC14214D9A005F351B /* miniflann.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = miniflann.cpp; sourceTree = "<group>"; };
+		DA62C9FD14214D9A005F351B /* precomp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = precomp.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -498,12 +588,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DA62C9A314214CD4005F351B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA62C9A714214CD4005F351B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		DA62C786142139AF005F351B = {
 			isa = PBXGroup;
 			children = (
+				DA62C9A814214CD4005F351B /* opencv_flann */,
 				DA62C98614214A47005F351B /* opencv_ts */,
 				DA62C90C142147A3005F351B /* opencv_imgproc */,
 				DA62C8AA14213C05005F351B /* opencv_core */,
@@ -524,6 +623,7 @@
 				DA62C8A814213C05005F351B /* libopencv_core.a */,
 				DA62C90A142147A3005F351B /* libopencv_imgproc.a */,
 				DA62C98414214A47005F351B /* libopencv_ts.a */,
+				DA62C9A614214CD4005F351B /* libopencv_flann.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -925,6 +1025,78 @@
 			name = Header;
 			sourceTree = "<group>";
 		};
+		DA62C9A814214CD4005F351B /* opencv_flann */ = {
+			isa = PBXGroup;
+			children = (
+				DA62C9AF14214CE2005F351B /* Header */,
+				DA62C9AE14214CE0005F351B /* Source */,
+				DA62C9A914214CD4005F351B /* Supporting Files */,
+			);
+			path = opencv_flann;
+			sourceTree = "<group>";
+		};
+		DA62C9A914214CD4005F351B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA62C9AA14214CD4005F351B /* opencv_flann-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA62C9AE14214CE0005F351B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DA62C9FA14214D9A005F351B /* precomp.hpp */,
+				DA62C9FB14214D9A005F351B /* flann.cpp */,
+				DA62C9FC14214D9A005F351B /* miniflann.cpp */,
+				DA62C9FD14214D9A005F351B /* precomp.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		DA62C9AF14214CE2005F351B /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				DA62C9B214214D50005F351B /* all_indices.h */,
+				DA62C9B314214D50005F351B /* allocator.h */,
+				DA62C9B414214D50005F351B /* any.h */,
+				DA62C9B514214D50005F351B /* autotuned_index.h */,
+				DA62C9B614214D50005F351B /* composite_index.h */,
+				DA62C9B714214D50005F351B /* config.h */,
+				DA62C9B814214D50005F351B /* defines.h */,
+				DA62C9B914214D50005F351B /* dist.h */,
+				DA62C9BA14214D50005F351B /* dummy.h */,
+				DA62C9BB14214D50005F351B /* dynamic_bitset.h */,
+				DA62C9BC14214D50005F351B /* general.h */,
+				DA62C9BD14214D50005F351B /* ground_truth.h */,
+				DA62C9BE14214D50005F351B /* hdf5.h */,
+				DA62C9BF14214D50005F351B /* heap.h */,
+				DA62C9C014214D50005F351B /* hierarchical_clustering_index.h */,
+				DA62C9C114214D50005F351B /* index_testing.h */,
+				DA62C9C214214D50005F351B /* kdtree_index.h */,
+				DA62C9C314214D50005F351B /* kdtree_single_index.h */,
+				DA62C9C414214D50005F351B /* kmeans_index.h */,
+				DA62C9C514214D50005F351B /* linear_index.h */,
+				DA62C9C614214D50005F351B /* logger.h */,
+				DA62C9C714214D50005F351B /* lsh_index.h */,
+				DA62C9C814214D50005F351B /* lsh_table.h */,
+				DA62C9C914214D50005F351B /* matrix.h */,
+				DA62C9CA14214D50005F351B /* nn_index.h */,
+				DA62C9CB14214D50005F351B /* object_factory.h */,
+				DA62C9CC14214D50005F351B /* params.h */,
+				DA62C9CD14214D50005F351B /* random.h */,
+				DA62C9CE14214D50005F351B /* result_set.h */,
+				DA62C9CF14214D50005F351B /* sampling.h */,
+				DA62C9D014214D50005F351B /* saving.h */,
+				DA62C9D114214D50005F351B /* simplex_downhill.h */,
+				DA62C9D214214D50005F351B /* timer.h */,
+				DA62C9D314214D50005F351B /* flann_base.hpp */,
+				DA62C9D414214D50005F351B /* flann.hpp */,
+				DA62C9D514214D50005F351B /* miniflann.hpp */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1017,6 +1189,50 @@
 				DA62C99314214AAD005F351B /* ts.hpp in Headers */,
 				DA62C99A14214AC2005F351B /* precomp.hpp in Headers */,
 				DA62C9A114214BEB005F351B /* crt_externs.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA62C9A414214CD4005F351B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA62C9D614214D50005F351B /* all_indices.h in Headers */,
+				DA62C9D714214D50005F351B /* allocator.h in Headers */,
+				DA62C9D814214D50005F351B /* any.h in Headers */,
+				DA62C9D914214D50005F351B /* autotuned_index.h in Headers */,
+				DA62C9DA14214D50005F351B /* composite_index.h in Headers */,
+				DA62C9DB14214D50005F351B /* config.h in Headers */,
+				DA62C9DC14214D50005F351B /* defines.h in Headers */,
+				DA62C9DD14214D50005F351B /* dist.h in Headers */,
+				DA62C9DE14214D50005F351B /* dummy.h in Headers */,
+				DA62C9DF14214D50005F351B /* dynamic_bitset.h in Headers */,
+				DA62C9E014214D50005F351B /* general.h in Headers */,
+				DA62C9E114214D50005F351B /* ground_truth.h in Headers */,
+				DA62C9E214214D50005F351B /* hdf5.h in Headers */,
+				DA62C9E314214D50005F351B /* heap.h in Headers */,
+				DA62C9E414214D50005F351B /* hierarchical_clustering_index.h in Headers */,
+				DA62C9E514214D50005F351B /* index_testing.h in Headers */,
+				DA62C9E614214D50005F351B /* kdtree_index.h in Headers */,
+				DA62C9E714214D50005F351B /* kdtree_single_index.h in Headers */,
+				DA62C9E814214D50005F351B /* kmeans_index.h in Headers */,
+				DA62C9E914214D50005F351B /* linear_index.h in Headers */,
+				DA62C9EA14214D50005F351B /* logger.h in Headers */,
+				DA62C9EB14214D50005F351B /* lsh_index.h in Headers */,
+				DA62C9EC14214D50005F351B /* lsh_table.h in Headers */,
+				DA62C9ED14214D50005F351B /* matrix.h in Headers */,
+				DA62C9EE14214D50005F351B /* nn_index.h in Headers */,
+				DA62C9EF14214D50005F351B /* object_factory.h in Headers */,
+				DA62C9F014214D50005F351B /* params.h in Headers */,
+				DA62C9F114214D50005F351B /* random.h in Headers */,
+				DA62C9F214214D50005F351B /* result_set.h in Headers */,
+				DA62C9F314214D50005F351B /* sampling.h in Headers */,
+				DA62C9F414214D50005F351B /* saving.h in Headers */,
+				DA62C9F514214D50005F351B /* simplex_downhill.h in Headers */,
+				DA62C9F614214D50005F351B /* timer.h in Headers */,
+				DA62C9F714214D50005F351B /* flann_base.hpp in Headers */,
+				DA62C9F814214D50005F351B /* flann.hpp in Headers */,
+				DA62C9F914214D50005F351B /* miniflann.hpp in Headers */,
+				DA62C9FE14214D9A005F351B /* precomp.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1128,6 +1344,24 @@
 			productReference = DA62C98414214A47005F351B /* libopencv_ts.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		DA62C9A514214CD4005F351B /* opencv_flann */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA62C9AB14214CD4005F351B /* Build configuration list for PBXNativeTarget "opencv_flann" */;
+			buildPhases = (
+				DA62C9A214214CD4005F351B /* Sources */,
+				DA62C9A314214CD4005F351B /* Frameworks */,
+				DA62C9A414214CD4005F351B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA62C9B114214CFC005F351B /* PBXTargetDependency */,
+			);
+			name = opencv_flann;
+			productName = opencv_flann;
+			productReference = DA62C9A614214CD4005F351B /* libopencv_flann.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1145,6 +1379,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				DA62C9A514214CD4005F351B /* opencv_flann */,
 				DA62C98314214A47005F351B /* opencv_ts */,
 				DA62C909142147A3005F351B /* opencv_imgproc */,
 				DA62C8A714213C05005F351B /* opencv_core */,
@@ -1345,6 +1580,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DA62C9A214214CD4005F351B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA62C9FF14214D9A005F351B /* flann.cpp in Sources */,
+				DA62CA0014214D9A005F351B /* miniflann.cpp in Sources */,
+				DA62CA0114214D9A005F351B /* precomp.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1362,6 +1607,11 @@
 			isa = PBXTargetDependency;
 			target = DA62C8A714213C05005F351B /* opencv_core */;
 			targetProxy = DA62C98C14214A66005F351B /* PBXContainerItemProxy */;
+		};
+		DA62C9B114214CFC005F351B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA62C8A714213C05005F351B /* opencv_core */;
+			targetProxy = DA62C9B014214CFC005F351B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1545,6 +1795,32 @@
 			};
 			name = Release;
 		};
+		DA62C9AC14214CD4005F351B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/opencv_flann.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "opencv_flann/opencv_flann-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/\"";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA62C9AD14214CD4005F351B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/opencv_flann.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "opencv_flann/opencv_flann-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/\"";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1602,6 +1878,14 @@
 			buildConfigurations = (
 				DA62C98A14214A47005F351B /* Debug */,
 				DA62C98B14214A47005F351B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA62C9AB14214CD4005F351B /* Build configuration list for PBXNativeTarget "opencv_flann" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA62C9AC14214CD4005F351B /* Debug */,
+				DA62C9AD14214CD4005F351B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
