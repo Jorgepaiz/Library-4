@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'opencv_objdetect' target in the 'opencv_objdetect' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
