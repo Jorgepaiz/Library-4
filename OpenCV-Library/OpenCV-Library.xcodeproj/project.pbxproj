@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA15A81A142159FA009E4104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA62C794142139AF005F351B /* Foundation.framework */; };
+		DA15A83C14215AA1009E4104 /* _modelest.h in Headers */ = {isa = PBXBuildFile; fileRef = DA15A82B14215AA1009E4104 /* _modelest.h */; };
+		DA15A83D14215AA1009E4104 /* circlesgrid.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DA15A82C14215AA1009E4104 /* circlesgrid.hpp */; };
+		DA15A83E14215AA1009E4104 /* precomp.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DA15A82D14215AA1009E4104 /* precomp.hpp */; };
+		DA15A83F14215AA1009E4104 /* calibinit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A82E14215AA1009E4104 /* calibinit.cpp */; };
+		DA15A84014215AA1009E4104 /* calibration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A82F14215AA1009E4104 /* calibration.cpp */; };
+		DA15A84114215AA1009E4104 /* checkchessboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A83014215AA1009E4104 /* checkchessboard.cpp */; };
+		DA15A84214215AA1009E4104 /* circlesgrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A83114215AA1009E4104 /* circlesgrid.cpp */; };
+		DA15A84314215AA1009E4104 /* fundam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A83214215AA1009E4104 /* fundam.cpp */; };
+		DA15A84414215AA1009E4104 /* modelest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A83314215AA1009E4104 /* modelest.cpp */; };
+		DA15A84514215AA1009E4104 /* posit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A83414215AA1009E4104 /* posit.cpp */; };
+		DA15A84614215AA1009E4104 /* precomp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A83514215AA1009E4104 /* precomp.cpp */; };
+		DA15A84714215AA1009E4104 /* quadsubpix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A83614215AA1009E4104 /* quadsubpix.cpp */; };
+		DA15A84814215AA1009E4104 /* solvepnp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A83714215AA1009E4104 /* solvepnp.cpp */; };
+		DA15A84914215AA1009E4104 /* stereobm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A83814215AA1009E4104 /* stereobm.cpp */; };
+		DA15A84A14215AA1009E4104 /* stereogc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A83914215AA1009E4104 /* stereogc.cpp */; };
+		DA15A84B14215AA1009E4104 /* stereosgbm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A83A14215AA1009E4104 /* stereosgbm.cpp */; };
+		DA15A84C14215AA1009E4104 /* triangulate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A83B14215AA1009E4104 /* triangulate.cpp */; };
+		DA15A84E14215AB8009E4104 /* calib3d.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DA15A84D14215AB8009E4104 /* calib3d.hpp */; };
 		DA62C7A314213A01005F351B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA62C794142139AF005F351B /* Foundation.framework */; };
 		DA62C7C314213A6B005F351B /* crc32.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C7B814213A6B005F351B /* crc32.h */; };
 		DA62C7C414213A6B005F351B /* deflate.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C7B914213A6B005F351B /* deflate.h */; };
@@ -316,6 +335,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		DA15A82114215A30009E4104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA62C788142139AF005F351B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA62CA6F14215091005F351B;
+			remoteInfo = opencv_features2d;
+		};
+		DA15A82314215A30009E4104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA62C788142139AF005F351B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA62C9A514214CD4005F351B;
+			remoteInfo = opencv_flann;
+		};
+		DA15A82514215A30009E4104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA62C788142139AF005F351B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA62C909142147A3005F351B;
+			remoteInfo = opencv_imgproc;
+		};
+		DA15A82714215A30009E4104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA62C788142139AF005F351B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA62C8A714213C05005F351B;
+			remoteInfo = opencv_core;
+		};
 		DA62C90414213CBD005F351B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DA62C788142139AF005F351B /* Project object */;
@@ -389,6 +436,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA15A819142159FA009E4104 /* libopencv_calib3d.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libopencv_calib3d.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15A81D142159FA009E4104 /* opencv_calib3d-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "opencv_calib3d-Prefix.pch"; sourceTree = "<group>"; };
+		DA15A82B14215AA1009E4104 /* _modelest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _modelest.h; sourceTree = "<group>"; };
+		DA15A82C14215AA1009E4104 /* circlesgrid.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = circlesgrid.hpp; sourceTree = "<group>"; };
+		DA15A82D14215AA1009E4104 /* precomp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = precomp.hpp; sourceTree = "<group>"; };
+		DA15A82E14215AA1009E4104 /* calibinit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = calibinit.cpp; sourceTree = "<group>"; };
+		DA15A82F14215AA1009E4104 /* calibration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = calibration.cpp; sourceTree = "<group>"; };
+		DA15A83014215AA1009E4104 /* checkchessboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = checkchessboard.cpp; sourceTree = "<group>"; };
+		DA15A83114215AA1009E4104 /* circlesgrid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = circlesgrid.cpp; sourceTree = "<group>"; };
+		DA15A83214215AA1009E4104 /* fundam.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fundam.cpp; sourceTree = "<group>"; };
+		DA15A83314215AA1009E4104 /* modelest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = modelest.cpp; sourceTree = "<group>"; };
+		DA15A83414215AA1009E4104 /* posit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = posit.cpp; sourceTree = "<group>"; };
+		DA15A83514215AA1009E4104 /* precomp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = precomp.cpp; sourceTree = "<group>"; };
+		DA15A83614215AA1009E4104 /* quadsubpix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = quadsubpix.cpp; sourceTree = "<group>"; };
+		DA15A83714215AA1009E4104 /* solvepnp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = solvepnp.cpp; sourceTree = "<group>"; };
+		DA15A83814215AA1009E4104 /* stereobm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stereobm.cpp; sourceTree = "<group>"; };
+		DA15A83914215AA1009E4104 /* stereogc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stereogc.cpp; sourceTree = "<group>"; };
+		DA15A83A14215AA1009E4104 /* stereosgbm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stereosgbm.cpp; sourceTree = "<group>"; };
+		DA15A83B14215AA1009E4104 /* triangulate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = triangulate.cpp; sourceTree = "<group>"; };
+		DA15A84D14215AB8009E4104 /* calib3d.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = calib3d.hpp; path = opencv2/calib3d/calib3d.hpp; sourceTree = SOURCE_ROOT; };
 		DA62C794142139AF005F351B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DA62C7A214213A01005F351B /* libzlib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libzlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA62C7A614213A01005F351B /* zlib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "zlib-Prefix.pch"; sourceTree = "<group>"; };
@@ -709,6 +776,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DA15A816142159FA009E4104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA15A81A142159FA009E4104 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA62C79F14213A01005F351B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -792,9 +867,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA15A81B142159FA009E4104 /* opencv_calib3d */ = {
+			isa = PBXGroup;
+			children = (
+				DA15A82A14215A4D009E4104 /* Header */,
+				DA15A82914215A3A009E4104 /* Source */,
+				DA15A81C142159FA009E4104 /* Supporting Files */,
+			);
+			path = opencv_calib3d;
+			sourceTree = "<group>";
+		};
+		DA15A81C142159FA009E4104 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA15A81D142159FA009E4104 /* opencv_calib3d-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA15A82914215A3A009E4104 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DA15A82B14215AA1009E4104 /* _modelest.h */,
+				DA15A82C14215AA1009E4104 /* circlesgrid.hpp */,
+				DA15A82D14215AA1009E4104 /* precomp.hpp */,
+				DA15A82E14215AA1009E4104 /* calibinit.cpp */,
+				DA15A82F14215AA1009E4104 /* calibration.cpp */,
+				DA15A83014215AA1009E4104 /* checkchessboard.cpp */,
+				DA15A83114215AA1009E4104 /* circlesgrid.cpp */,
+				DA15A83214215AA1009E4104 /* fundam.cpp */,
+				DA15A83314215AA1009E4104 /* modelest.cpp */,
+				DA15A83414215AA1009E4104 /* posit.cpp */,
+				DA15A83514215AA1009E4104 /* precomp.cpp */,
+				DA15A83614215AA1009E4104 /* quadsubpix.cpp */,
+				DA15A83714215AA1009E4104 /* solvepnp.cpp */,
+				DA15A83814215AA1009E4104 /* stereobm.cpp */,
+				DA15A83914215AA1009E4104 /* stereogc.cpp */,
+				DA15A83A14215AA1009E4104 /* stereosgbm.cpp */,
+				DA15A83B14215AA1009E4104 /* triangulate.cpp */,
+			);
+			name = Source;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		DA15A82A14215A4D009E4104 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				DA15A84D14215AB8009E4104 /* calib3d.hpp */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
 		DA62C786142139AF005F351B = {
 			isa = PBXGroup;
 			children = (
+				DA15A81B142159FA009E4104 /* opencv_calib3d */,
 				DA62CA7214215091005F351B /* opencv_features2d */,
 				DA62CA3C14214F83005F351B /* opencv_video */,
 				DA62CA0814214E2E005F351B /* opencv_ml */,
@@ -823,6 +950,7 @@
 				DA62CA0614214E2E005F351B /* libopencv_ml.a */,
 				DA62CA3A14214F83005F351B /* libopencv_video.a */,
 				DA62CA7014215091005F351B /* libopencv_features2d.a */,
+				DA15A819142159FA009E4104 /* libopencv_calib3d.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1454,6 +1582,17 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		DA15A817142159FA009E4104 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA15A83C14215AA1009E4104 /* _modelest.h in Headers */,
+				DA15A83D14215AA1009E4104 /* circlesgrid.hpp in Headers */,
+				DA15A83E14215AA1009E4104 /* precomp.hpp in Headers */,
+				DA15A84E14215AB8009E4104 /* calib3d.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA62C7A014213A01005F351B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1623,6 +1762,27 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		DA15A818142159FA009E4104 /* opencv_calib3d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA15A81E142159FA009E4104 /* Build configuration list for PBXNativeTarget "opencv_calib3d" */;
+			buildPhases = (
+				DA15A815142159FA009E4104 /* Sources */,
+				DA15A816142159FA009E4104 /* Frameworks */,
+				DA15A817142159FA009E4104 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA15A82214215A30009E4104 /* PBXTargetDependency */,
+				DA15A82414215A30009E4104 /* PBXTargetDependency */,
+				DA15A82614215A30009E4104 /* PBXTargetDependency */,
+				DA15A82814215A30009E4104 /* PBXTargetDependency */,
+			);
+			name = opencv_calib3d;
+			productName = opencv_calib3d;
+			productReference = DA15A819142159FA009E4104 /* libopencv_calib3d.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		DA62C7A114213A01005F351B /* zlib */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA62C7A714213A01005F351B /* Build configuration list for PBXNativeTarget "zlib" */;
@@ -1830,11 +1990,33 @@
 				DA62C82314213B37005F351B /* libjpeg */,
 				DA62C7EF14213AAF005F351B /* libpng */,
 				DA62C7A114213A01005F351B /* zlib */,
+				DA15A818142159FA009E4104 /* opencv_calib3d */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DA15A815142159FA009E4104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA15A83F14215AA1009E4104 /* calibinit.cpp in Sources */,
+				DA15A84014215AA1009E4104 /* calibration.cpp in Sources */,
+				DA15A84114215AA1009E4104 /* checkchessboard.cpp in Sources */,
+				DA15A84214215AA1009E4104 /* circlesgrid.cpp in Sources */,
+				DA15A84314215AA1009E4104 /* fundam.cpp in Sources */,
+				DA15A84414215AA1009E4104 /* modelest.cpp in Sources */,
+				DA15A84514215AA1009E4104 /* posit.cpp in Sources */,
+				DA15A84614215AA1009E4104 /* precomp.cpp in Sources */,
+				DA15A84714215AA1009E4104 /* quadsubpix.cpp in Sources */,
+				DA15A84814215AA1009E4104 /* solvepnp.cpp in Sources */,
+				DA15A84914215AA1009E4104 /* stereobm.cpp in Sources */,
+				DA15A84A14215AA1009E4104 /* stereogc.cpp in Sources */,
+				DA15A84B14215AA1009E4104 /* stereosgbm.cpp in Sources */,
+				DA15A84C14215AA1009E4104 /* triangulate.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA62C79E14213A01005F351B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2108,6 +2290,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		DA15A82214215A30009E4104 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA62CA6F14215091005F351B /* opencv_features2d */;
+			targetProxy = DA15A82114215A30009E4104 /* PBXContainerItemProxy */;
+		};
+		DA15A82414215A30009E4104 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA62C9A514214CD4005F351B /* opencv_flann */;
+			targetProxy = DA15A82314215A30009E4104 /* PBXContainerItemProxy */;
+		};
+		DA15A82614215A30009E4104 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA62C909142147A3005F351B /* opencv_imgproc */;
+			targetProxy = DA15A82514215A30009E4104 /* PBXContainerItemProxy */;
+		};
+		DA15A82814215A30009E4104 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA62C8A714213C05005F351B /* opencv_core */;
+			targetProxy = DA15A82714215A30009E4104 /* PBXContainerItemProxy */;
+		};
 		DA62C90514213CBD005F351B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DA62C7A114213A01005F351B /* zlib */;
@@ -2161,6 +2363,32 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		DA15A81F142159FA009E4104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/opencv_calib3d.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "opencv_calib3d/opencv_calib3d-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/\"";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA15A820142159FA009E4104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/opencv_calib3d.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "opencv_calib3d/opencv_calib3d-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/\"";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		DA62C799142139AF005F351B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2447,6 +2675,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DA15A81E142159FA009E4104 /* Build configuration list for PBXNativeTarget "opencv_calib3d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA15A81F142159FA009E4104 /* Debug */,
+				DA15A820142159FA009E4104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		DA62C78B142139AF005F351B /* Build configuration list for PBXProject "OpenCV-Library" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
