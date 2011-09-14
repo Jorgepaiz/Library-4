@@ -251,6 +251,25 @@
 		DA62C9FF14214D9A005F351B /* flann.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62C9FB14214D9A005F351B /* flann.cpp */; };
 		DA62CA0014214D9A005F351B /* miniflann.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62C9FC14214D9A005F351B /* miniflann.cpp */; };
 		DA62CA0114214D9A005F351B /* precomp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62C9FD14214D9A005F351B /* precomp.cpp */; };
+		DA62CA0714214E2E005F351B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA62C794142139AF005F351B /* Foundation.framework */; };
+		DA62CA1114214E76005F351B /* ml.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DA62CA1014214E76005F351B /* ml.hpp */; };
+		DA62CA2314214E94005F351B /* precomp.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DA62CA1214214E94005F351B /* precomp.hpp */; };
+		DA62CA2414214E94005F351B /* ann_mlp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62CA1314214E94005F351B /* ann_mlp.cpp */; };
+		DA62CA2514214E94005F351B /* boost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62CA1414214E94005F351B /* boost.cpp */; };
+		DA62CA2614214E94005F351B /* cnn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62CA1514214E94005F351B /* cnn.cpp */; };
+		DA62CA2714214E94005F351B /* data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62CA1614214E94005F351B /* data.cpp */; };
+		DA62CA2814214E94005F351B /* em.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62CA1714214E94005F351B /* em.cpp */; };
+		DA62CA2914214E94005F351B /* ertrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62CA1814214E94005F351B /* ertrees.cpp */; };
+		DA62CA2A14214E94005F351B /* estimate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62CA1914214E94005F351B /* estimate.cpp */; };
+		DA62CA2B14214E94005F351B /* gbt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62CA1A14214E94005F351B /* gbt.cpp */; };
+		DA62CA2C14214E94005F351B /* inner_functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62CA1B14214E94005F351B /* inner_functions.cpp */; };
+		DA62CA2D14214E94005F351B /* knearest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62CA1C14214E94005F351B /* knearest.cpp */; };
+		DA62CA2E14214E94005F351B /* nbayes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62CA1D14214E94005F351B /* nbayes.cpp */; };
+		DA62CA2F14214E94005F351B /* precomp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62CA1E14214E94005F351B /* precomp.cpp */; };
+		DA62CA3014214E94005F351B /* rtrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62CA1F14214E94005F351B /* rtrees.cpp */; };
+		DA62CA3114214E94005F351B /* svm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62CA2014214E94005F351B /* svm.cpp */; };
+		DA62CA3214214E94005F351B /* testset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62CA2114214E94005F351B /* testset.cpp */; };
+		DA62CA3314214E94005F351B /* tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA62CA2214214E94005F351B /* tree.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -276,6 +295,13 @@
 			remoteInfo = opencv_core;
 		};
 		DA62C9B014214CFC005F351B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA62C788142139AF005F351B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA62C8A714213C05005F351B;
+			remoteInfo = opencv_core;
+		};
+		DA62CA3414214EF2005F351B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DA62C788142139AF005F351B /* Project object */;
 			proxyType = 1;
@@ -537,6 +563,26 @@
 		DA62C9FB14214D9A005F351B /* flann.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = flann.cpp; sourceTree = "<group>"; };
 		DA62C9FC14214D9A005F351B /* miniflann.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = miniflann.cpp; sourceTree = "<group>"; };
 		DA62C9FD14214D9A005F351B /* precomp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = precomp.cpp; sourceTree = "<group>"; };
+		DA62CA0614214E2E005F351B /* libopencv_ml.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libopencv_ml.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA62CA0A14214E2E005F351B /* opencv_ml-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "opencv_ml-Prefix.pch"; sourceTree = "<group>"; };
+		DA62CA1014214E76005F351B /* ml.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ml.hpp; path = opencv2/ml/ml.hpp; sourceTree = SOURCE_ROOT; };
+		DA62CA1214214E94005F351B /* precomp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = precomp.hpp; sourceTree = "<group>"; };
+		DA62CA1314214E94005F351B /* ann_mlp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ann_mlp.cpp; sourceTree = "<group>"; };
+		DA62CA1414214E94005F351B /* boost.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = boost.cpp; sourceTree = "<group>"; };
+		DA62CA1514214E94005F351B /* cnn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cnn.cpp; sourceTree = "<group>"; };
+		DA62CA1614214E94005F351B /* data.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = data.cpp; sourceTree = "<group>"; };
+		DA62CA1714214E94005F351B /* em.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = em.cpp; sourceTree = "<group>"; };
+		DA62CA1814214E94005F351B /* ertrees.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ertrees.cpp; sourceTree = "<group>"; };
+		DA62CA1914214E94005F351B /* estimate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = estimate.cpp; sourceTree = "<group>"; };
+		DA62CA1A14214E94005F351B /* gbt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gbt.cpp; sourceTree = "<group>"; };
+		DA62CA1B14214E94005F351B /* inner_functions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = inner_functions.cpp; sourceTree = "<group>"; };
+		DA62CA1C14214E94005F351B /* knearest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = knearest.cpp; sourceTree = "<group>"; };
+		DA62CA1D14214E94005F351B /* nbayes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nbayes.cpp; sourceTree = "<group>"; };
+		DA62CA1E14214E94005F351B /* precomp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = precomp.cpp; sourceTree = "<group>"; };
+		DA62CA1F14214E94005F351B /* rtrees.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtrees.cpp; sourceTree = "<group>"; };
+		DA62CA2014214E94005F351B /* svm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = svm.cpp; sourceTree = "<group>"; };
+		DA62CA2114214E94005F351B /* testset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testset.cpp; sourceTree = "<group>"; };
+		DA62CA2214214E94005F351B /* tree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tree.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -596,12 +642,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DA62CA0314214E2E005F351B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA62CA0714214E2E005F351B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		DA62C786142139AF005F351B = {
 			isa = PBXGroup;
 			children = (
+				DA62CA0814214E2E005F351B /* opencv_ml */,
 				DA62C9A814214CD4005F351B /* opencv_flann */,
 				DA62C98614214A47005F351B /* opencv_ts */,
 				DA62C90C142147A3005F351B /* opencv_imgproc */,
@@ -624,6 +679,7 @@
 				DA62C90A142147A3005F351B /* libopencv_imgproc.a */,
 				DA62C98414214A47005F351B /* libopencv_ts.a */,
 				DA62C9A614214CD4005F351B /* libopencv_flann.a */,
+				DA62CA0614214E2E005F351B /* libopencv_ml.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1097,6 +1153,56 @@
 			name = Header;
 			sourceTree = "<group>";
 		};
+		DA62CA0814214E2E005F351B /* opencv_ml */ = {
+			isa = PBXGroup;
+			children = (
+				DA62CA0F14214E44005F351B /* Header */,
+				DA62CA0E14214E40005F351B /* Source */,
+				DA62CA0914214E2E005F351B /* Supporting Files */,
+			);
+			path = opencv_ml;
+			sourceTree = "<group>";
+		};
+		DA62CA0914214E2E005F351B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA62CA0A14214E2E005F351B /* opencv_ml-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA62CA0E14214E40005F351B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DA62CA1214214E94005F351B /* precomp.hpp */,
+				DA62CA1314214E94005F351B /* ann_mlp.cpp */,
+				DA62CA1414214E94005F351B /* boost.cpp */,
+				DA62CA1514214E94005F351B /* cnn.cpp */,
+				DA62CA1614214E94005F351B /* data.cpp */,
+				DA62CA1714214E94005F351B /* em.cpp */,
+				DA62CA1814214E94005F351B /* ertrees.cpp */,
+				DA62CA1914214E94005F351B /* estimate.cpp */,
+				DA62CA1A14214E94005F351B /* gbt.cpp */,
+				DA62CA1B14214E94005F351B /* inner_functions.cpp */,
+				DA62CA1C14214E94005F351B /* knearest.cpp */,
+				DA62CA1D14214E94005F351B /* nbayes.cpp */,
+				DA62CA1E14214E94005F351B /* precomp.cpp */,
+				DA62CA1F14214E94005F351B /* rtrees.cpp */,
+				DA62CA2014214E94005F351B /* svm.cpp */,
+				DA62CA2114214E94005F351B /* testset.cpp */,
+				DA62CA2214214E94005F351B /* tree.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		DA62CA0F14214E44005F351B /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				DA62CA1014214E76005F351B /* ml.hpp */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1236,6 +1342,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DA62CA0414214E2E005F351B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA62CA1114214E76005F351B /* ml.hpp in Headers */,
+				DA62CA2314214E94005F351B /* precomp.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -1362,6 +1477,24 @@
 			productReference = DA62C9A614214CD4005F351B /* libopencv_flann.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		DA62CA0514214E2E005F351B /* opencv_ml */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA62CA0B14214E2E005F351B /* Build configuration list for PBXNativeTarget "opencv_ml" */;
+			buildPhases = (
+				DA62CA0214214E2E005F351B /* Sources */,
+				DA62CA0314214E2E005F351B /* Frameworks */,
+				DA62CA0414214E2E005F351B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA62CA3514214EF2005F351B /* PBXTargetDependency */,
+			);
+			name = opencv_ml;
+			productName = opencv_ml;
+			productReference = DA62CA0614214E2E005F351B /* libopencv_ml.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1379,6 +1512,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				DA62CA0514214E2E005F351B /* opencv_ml */,
 				DA62C9A514214CD4005F351B /* opencv_flann */,
 				DA62C98314214A47005F351B /* opencv_ts */,
 				DA62C909142147A3005F351B /* opencv_imgproc */,
@@ -1590,6 +1724,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DA62CA0214214E2E005F351B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA62CA2414214E94005F351B /* ann_mlp.cpp in Sources */,
+				DA62CA2514214E94005F351B /* boost.cpp in Sources */,
+				DA62CA2614214E94005F351B /* cnn.cpp in Sources */,
+				DA62CA2714214E94005F351B /* data.cpp in Sources */,
+				DA62CA2814214E94005F351B /* em.cpp in Sources */,
+				DA62CA2914214E94005F351B /* ertrees.cpp in Sources */,
+				DA62CA2A14214E94005F351B /* estimate.cpp in Sources */,
+				DA62CA2B14214E94005F351B /* gbt.cpp in Sources */,
+				DA62CA2C14214E94005F351B /* inner_functions.cpp in Sources */,
+				DA62CA2D14214E94005F351B /* knearest.cpp in Sources */,
+				DA62CA2E14214E94005F351B /* nbayes.cpp in Sources */,
+				DA62CA2F14214E94005F351B /* precomp.cpp in Sources */,
+				DA62CA3014214E94005F351B /* rtrees.cpp in Sources */,
+				DA62CA3114214E94005F351B /* svm.cpp in Sources */,
+				DA62CA3214214E94005F351B /* testset.cpp in Sources */,
+				DA62CA3314214E94005F351B /* tree.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1612,6 +1769,11 @@
 			isa = PBXTargetDependency;
 			target = DA62C8A714213C05005F351B /* opencv_core */;
 			targetProxy = DA62C9B014214CFC005F351B /* PBXContainerItemProxy */;
+		};
+		DA62CA3514214EF2005F351B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA62C8A714213C05005F351B /* opencv_core */;
+			targetProxy = DA62CA3414214EF2005F351B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1821,6 +1983,32 @@
 			};
 			name = Release;
 		};
+		DA62CA0C14214E2E005F351B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/opencv_ml.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "opencv_ml/opencv_ml-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/\"";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA62CA0D14214E2E005F351B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/opencv_ml.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "opencv_ml/opencv_ml-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/\"";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1886,6 +2074,14 @@
 			buildConfigurations = (
 				DA62C9AC14214CD4005F351B /* Debug */,
 				DA62C9AD14214CD4005F351B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA62CA0B14214E2E005F351B /* Build configuration list for PBXNativeTarget "opencv_ml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA62CA0C14214E2E005F351B /* Debug */,
+				DA62CA0D14214E2E005F351B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
