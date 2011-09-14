@@ -26,6 +26,88 @@
 		DA15A84B14215AA1009E4104 /* stereosgbm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A83A14215AA1009E4104 /* stereosgbm.cpp */; };
 		DA15A84C14215AA1009E4104 /* triangulate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A83B14215AA1009E4104 /* triangulate.cpp */; };
 		DA15A84E14215AB8009E4104 /* calib3d.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DA15A84D14215AB8009E4104 /* calib3d.hpp */; };
+		DA15A85414215B7A009E4104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA62C794142139AF005F351B /* Foundation.framework */; };
+		DA15A8B614215C2F009E4104 /* _facedetection.h in Headers */ = {isa = PBXBuildFile; fileRef = DA15A86914215C2F009E4104 /* _facedetection.h */; };
+		DA15A8B714215C2F009E4104 /* _matrix.h in Headers */ = {isa = PBXBuildFile; fileRef = DA15A86A14215C2F009E4104 /* _matrix.h */; };
+		DA15A8B814215C2F009E4104 /* _vectrack.h in Headers */ = {isa = PBXBuildFile; fileRef = DA15A86B14215C2F009E4104 /* _vectrack.h */; };
+		DA15A8B914215C2F009E4104 /* _vm.h in Headers */ = {isa = PBXBuildFile; fileRef = DA15A86C14215C2F009E4104 /* _vm.h */; };
+		DA15A8BA14215C2F009E4104 /* face.h in Headers */ = {isa = PBXBuildFile; fileRef = DA15A86D14215C2F009E4104 /* face.h */; };
+		DA15A8BB14215C2F009E4104 /* facedetection.h in Headers */ = {isa = PBXBuildFile; fileRef = DA15A86E14215C2F009E4104 /* facedetection.h */; };
+		DA15A8BC14215C2F009E4104 /* facetemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = DA15A86F14215C2F009E4104 /* facetemplate.h */; };
+		DA15A8BD14215C2F009E4104 /* precomp.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DA15A87014215C2F009E4104 /* precomp.hpp */; };
+		DA15A8BE14215C2F009E4104 /* 3dtracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A87114215C2F009E4104 /* 3dtracker.cpp */; };
+		DA15A8BF14215C2F009E4104 /* auxutils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A87214215C2F009E4104 /* auxutils.cpp */; };
+		DA15A8C014215C2F009E4104 /* bgfg_estimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A87314215C2F009E4104 /* bgfg_estimation.cpp */; };
+		DA15A8C114215C2F009E4104 /* blobtrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A87414215C2F009E4104 /* blobtrack.cpp */; };
+		DA15A8C214215C2F009E4104 /* blobtrackanalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A87514215C2F009E4104 /* blobtrackanalysis.cpp */; };
+		DA15A8C314215C2F009E4104 /* blobtrackanalysishist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A87614215C2F009E4104 /* blobtrackanalysishist.cpp */; };
+		DA15A8C414215C2F009E4104 /* blobtrackanalysisior.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A87714215C2F009E4104 /* blobtrackanalysisior.cpp */; };
+		DA15A8C514215C2F009E4104 /* blobtrackanalysistrackdist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A87814215C2F009E4104 /* blobtrackanalysistrackdist.cpp */; };
+		DA15A8C614215C2F009E4104 /* blobtrackgen1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A87914215C2F009E4104 /* blobtrackgen1.cpp */; };
+		DA15A8C714215C2F009E4104 /* blobtrackgenyml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A87A14215C2F009E4104 /* blobtrackgenyml.cpp */; };
+		DA15A8C814215C2F009E4104 /* blobtrackingauto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A87B14215C2F009E4104 /* blobtrackingauto.cpp */; };
+		DA15A8C914215C2F009E4104 /* blobtrackingcc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A87C14215C2F009E4104 /* blobtrackingcc.cpp */; };
+		DA15A8CA14215C2F009E4104 /* blobtrackingccwithcr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A87D14215C2F009E4104 /* blobtrackingccwithcr.cpp */; };
+		DA15A8CB14215C2F009E4104 /* blobtrackingkalman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A87E14215C2F009E4104 /* blobtrackingkalman.cpp */; };
+		DA15A8CC14215C2F009E4104 /* blobtrackinglist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A87F14215C2F009E4104 /* blobtrackinglist.cpp */; };
+		DA15A8CD14215C2F009E4104 /* blobtrackingmsfg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A88014215C2F009E4104 /* blobtrackingmsfg.cpp */; };
+		DA15A8CE14215C2F009E4104 /* blobtrackingmsfgs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A88114215C2F009E4104 /* blobtrackingmsfgs.cpp */; };
+		DA15A8CF14215C2F009E4104 /* blobtrackpostprockalman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A88214215C2F009E4104 /* blobtrackpostprockalman.cpp */; };
+		DA15A8D014215C2F009E4104 /* blobtrackpostproclinear.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A88314215C2F009E4104 /* blobtrackpostproclinear.cpp */; };
+		DA15A8D114215C2F009E4104 /* blobtrackpostproclist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A88414215C2F009E4104 /* blobtrackpostproclist.cpp */; };
+		DA15A8D214215C2F009E4104 /* calcimagehomography.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A88514215C2F009E4104 /* calcimagehomography.cpp */; };
+		DA15A8D314215C2F009E4104 /* calibfilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A88614215C2F009E4104 /* calibfilter.cpp */; };
+		DA15A8D414215C2F009E4104 /* camshift.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A88714215C2F009E4104 /* camshift.cpp */; };
+		DA15A8D514215C2F009E4104 /* clique.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A88814215C2F009E4104 /* clique.cpp */; };
+		DA15A8D614215C2F009E4104 /* compat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A88914215C2F009E4104 /* compat.cpp */; };
+		DA15A8D714215C2F009E4104 /* condens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A88A14215C2F009E4104 /* condens.cpp */; };
+		DA15A8D814215C2F009E4104 /* contourtree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A88B14215C2F009E4104 /* contourtree.cpp */; };
+		DA15A8D914215C2F009E4104 /* correspond.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A88C14215C2F009E4104 /* correspond.cpp */; };
+		DA15A8DA14215C2F009E4104 /* corrimages.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A88D14215C2F009E4104 /* corrimages.cpp */; };
+		DA15A8DB14215C2F009E4104 /* createhandmask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A88E14215C2F009E4104 /* createhandmask.cpp */; };
+		DA15A8DC14215C2F009E4104 /* decomppoly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A88F14215C2F009E4104 /* decomppoly.cpp */; };
+		DA15A8DD14215C2F009E4104 /* dominants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A89014215C2F009E4104 /* dominants.cpp */; };
+		DA15A8DE14215C2F009E4104 /* dpstereo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A89114215C2F009E4104 /* dpstereo.cpp */; };
+		DA15A8DF14215C2F009E4104 /* eigenobjects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A89214215C2F009E4104 /* eigenobjects.cpp */; };
+		DA15A8E014215C2F009E4104 /* enmin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A89314215C2F009E4104 /* enmin.cpp */; };
+		DA15A8E114215C2F009E4104 /* enteringblobdetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A89414215C2F009E4104 /* enteringblobdetection.cpp */; };
+		DA15A8E214215C2F009E4104 /* enteringblobdetectionreal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A89514215C2F009E4104 /* enteringblobdetectionreal.cpp */; };
+		DA15A8E314215C2F009E4104 /* epilines.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A89614215C2F009E4104 /* epilines.cpp */; };
+		DA15A8E414215C2F009E4104 /* extendededges.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A89714215C2F009E4104 /* extendededges.cpp */; };
+		DA15A8E514215C2F009E4104 /* face.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A89814215C2F009E4104 /* face.cpp */; };
+		DA15A8E614215C2F009E4104 /* facedetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A89914215C2F009E4104 /* facedetection.cpp */; };
+		DA15A8E714215C2F009E4104 /* facetemplate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A89A14215C2F009E4104 /* facetemplate.cpp */; };
+		DA15A8E814215C2F009E4104 /* findface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A89B14215C2F009E4104 /* findface.cpp */; };
+		DA15A8E914215C2F009E4104 /* findhandregion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A89C14215C2F009E4104 /* findhandregion.cpp */; };
+		DA15A8EA14215C2F009E4104 /* hmm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A89D14215C2F009E4104 /* hmm.cpp */; };
+		DA15A8EB14215C2F009E4104 /* hmm1d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A89E14215C2F009E4104 /* hmm1d.cpp */; };
+		DA15A8EC14215C2F009E4104 /* hmmobs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A89F14215C2F009E4104 /* hmmobs.cpp */; };
+		DA15A8ED14215C2F009E4104 /* image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A8A014215C2F009E4104 /* image.cpp */; };
+		DA15A8EE14215C2F009E4104 /* lcm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A8A114215C2F009E4104 /* lcm.cpp */; };
+		DA15A8EF14215C2F009E4104 /* lee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A8A214215C2F009E4104 /* lee.cpp */; };
+		DA15A8F014215C2F009E4104 /* levmar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A8A314215C2F009E4104 /* levmar.cpp */; };
+		DA15A8F114215C2F009E4104 /* levmarprojbandle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A8A414215C2F009E4104 /* levmarprojbandle.cpp */; };
+		DA15A8F214215C2F009E4104 /* levmartrif.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A8A514215C2F009E4104 /* levmartrif.cpp */; };
+		DA15A8F314215C2F009E4104 /* lines.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A8A614215C2F009E4104 /* lines.cpp */; };
+		DA15A8F414215C2F009E4104 /* lmeds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A8A714215C2F009E4104 /* lmeds.cpp */; };
+		DA15A8F514215C2F009E4104 /* morphcontours.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A8A814215C2F009E4104 /* morphcontours.cpp */; };
+		DA15A8F614215C2F009E4104 /* morphing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A8A914215C2F009E4104 /* morphing.cpp */; };
+		DA15A8F714215C2F009E4104 /* pgh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A8AA14215C2F009E4104 /* pgh.cpp */; };
+		DA15A8F814215C2F009E4104 /* precomp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A8AB14215C2F009E4104 /* precomp.cpp */; };
+		DA15A8F914215C2F009E4104 /* prewarp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A8AC14215C2F009E4104 /* prewarp.cpp */; };
+		DA15A8FA14215C2F009E4104 /* scanlines.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A8AD14215C2F009E4104 /* scanlines.cpp */; };
+		DA15A8FB14215C2F009E4104 /* segment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A8AE14215C2F009E4104 /* segment.cpp */; };
+		DA15A8FC14215C2F009E4104 /* snakes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A8AF14215C2F009E4104 /* snakes.cpp */; };
+		DA15A8FD14215C2F009E4104 /* subdiv2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A8B014215C2F009E4104 /* subdiv2.cpp */; };
+		DA15A8FE14215C2F009E4104 /* testseq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A8B114215C2F009E4104 /* testseq.cpp */; };
+		DA15A8FF14215C2F009E4104 /* texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A8B214215C2F009E4104 /* texture.cpp */; };
+		DA15A90014215C2F009E4104 /* trifocal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A8B314215C2F009E4104 /* trifocal.cpp */; };
+		DA15A90114215C2F009E4104 /* vecfacetracking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A8B414215C2F009E4104 /* vecfacetracking.cpp */; };
+		DA15A90214215C2F009E4104 /* video.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA15A8B514215C2F009E4104 /* video.cpp */; };
+		DA15A90714215C64009E4104 /* blobtrack.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DA15A90314215C64009E4104 /* blobtrack.hpp */; };
+		DA15A90814215C64009E4104 /* compat.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DA15A90414215C64009E4104 /* compat.hpp */; };
+		DA15A90914215C64009E4104 /* legacy.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DA15A90514215C64009E4104 /* legacy.hpp */; };
+		DA15A90A14215C64009E4104 /* streams.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DA15A90614215C64009E4104 /* streams.hpp */; };
 		DA62C7A314213A01005F351B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA62C794142139AF005F351B /* Foundation.framework */; };
 		DA62C7C314213A6B005F351B /* crc32.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C7B814213A6B005F351B /* crc32.h */; };
 		DA62C7C414213A6B005F351B /* deflate.h in Headers */ = {isa = PBXBuildFile; fileRef = DA62C7B914213A6B005F351B /* deflate.h */; };
@@ -363,6 +445,48 @@
 			remoteGlobalIDString = DA62C8A714213C05005F351B;
 			remoteInfo = opencv_core;
 		};
+		DA15A85B14215B9B009E4104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA62C788142139AF005F351B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA15A818142159FA009E4104;
+			remoteInfo = opencv_calib3d;
+		};
+		DA15A85D14215B9B009E4104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA62C788142139AF005F351B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA62CA6F14215091005F351B;
+			remoteInfo = opencv_features2d;
+		};
+		DA15A85F14215B9B009E4104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA62C788142139AF005F351B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA62CA3914214F83005F351B;
+			remoteInfo = opencv_video;
+		};
+		DA15A86114215B9B009E4104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA62C788142139AF005F351B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA62C9A514214CD4005F351B;
+			remoteInfo = opencv_flann;
+		};
+		DA15A86314215B9B009E4104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA62C788142139AF005F351B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA62C909142147A3005F351B;
+			remoteInfo = opencv_imgproc;
+		};
+		DA15A86514215B9B009E4104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA62C788142139AF005F351B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA62C8A714213C05005F351B;
+			remoteInfo = opencv_core;
+		};
 		DA62C90414213CBD005F351B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DA62C788142139AF005F351B /* Project object */;
@@ -456,6 +580,89 @@
 		DA15A83A14215AA1009E4104 /* stereosgbm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stereosgbm.cpp; sourceTree = "<group>"; };
 		DA15A83B14215AA1009E4104 /* triangulate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = triangulate.cpp; sourceTree = "<group>"; };
 		DA15A84D14215AB8009E4104 /* calib3d.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = calib3d.hpp; path = opencv2/calib3d/calib3d.hpp; sourceTree = SOURCE_ROOT; };
+		DA15A85314215B7A009E4104 /* libopencv_legacy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libopencv_legacy.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA15A85714215B7A009E4104 /* opencv_legacy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "opencv_legacy-Prefix.pch"; sourceTree = "<group>"; };
+		DA15A86914215C2F009E4104 /* _facedetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _facedetection.h; sourceTree = "<group>"; };
+		DA15A86A14215C2F009E4104 /* _matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _matrix.h; sourceTree = "<group>"; };
+		DA15A86B14215C2F009E4104 /* _vectrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _vectrack.h; sourceTree = "<group>"; };
+		DA15A86C14215C2F009E4104 /* _vm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _vm.h; sourceTree = "<group>"; };
+		DA15A86D14215C2F009E4104 /* face.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = face.h; sourceTree = "<group>"; };
+		DA15A86E14215C2F009E4104 /* facedetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = facedetection.h; sourceTree = "<group>"; };
+		DA15A86F14215C2F009E4104 /* facetemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = facetemplate.h; sourceTree = "<group>"; };
+		DA15A87014215C2F009E4104 /* precomp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = precomp.hpp; sourceTree = "<group>"; };
+		DA15A87114215C2F009E4104 /* 3dtracker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 3dtracker.cpp; sourceTree = "<group>"; };
+		DA15A87214215C2F009E4104 /* auxutils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = auxutils.cpp; sourceTree = "<group>"; };
+		DA15A87314215C2F009E4104 /* bgfg_estimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bgfg_estimation.cpp; sourceTree = "<group>"; };
+		DA15A87414215C2F009E4104 /* blobtrack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blobtrack.cpp; sourceTree = "<group>"; };
+		DA15A87514215C2F009E4104 /* blobtrackanalysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blobtrackanalysis.cpp; sourceTree = "<group>"; };
+		DA15A87614215C2F009E4104 /* blobtrackanalysishist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blobtrackanalysishist.cpp; sourceTree = "<group>"; };
+		DA15A87714215C2F009E4104 /* blobtrackanalysisior.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blobtrackanalysisior.cpp; sourceTree = "<group>"; };
+		DA15A87814215C2F009E4104 /* blobtrackanalysistrackdist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blobtrackanalysistrackdist.cpp; sourceTree = "<group>"; };
+		DA15A87914215C2F009E4104 /* blobtrackgen1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blobtrackgen1.cpp; sourceTree = "<group>"; };
+		DA15A87A14215C2F009E4104 /* blobtrackgenyml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blobtrackgenyml.cpp; sourceTree = "<group>"; };
+		DA15A87B14215C2F009E4104 /* blobtrackingauto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blobtrackingauto.cpp; sourceTree = "<group>"; };
+		DA15A87C14215C2F009E4104 /* blobtrackingcc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blobtrackingcc.cpp; sourceTree = "<group>"; };
+		DA15A87D14215C2F009E4104 /* blobtrackingccwithcr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blobtrackingccwithcr.cpp; sourceTree = "<group>"; };
+		DA15A87E14215C2F009E4104 /* blobtrackingkalman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blobtrackingkalman.cpp; sourceTree = "<group>"; };
+		DA15A87F14215C2F009E4104 /* blobtrackinglist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blobtrackinglist.cpp; sourceTree = "<group>"; };
+		DA15A88014215C2F009E4104 /* blobtrackingmsfg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blobtrackingmsfg.cpp; sourceTree = "<group>"; };
+		DA15A88114215C2F009E4104 /* blobtrackingmsfgs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blobtrackingmsfgs.cpp; sourceTree = "<group>"; };
+		DA15A88214215C2F009E4104 /* blobtrackpostprockalman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blobtrackpostprockalman.cpp; sourceTree = "<group>"; };
+		DA15A88314215C2F009E4104 /* blobtrackpostproclinear.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blobtrackpostproclinear.cpp; sourceTree = "<group>"; };
+		DA15A88414215C2F009E4104 /* blobtrackpostproclist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blobtrackpostproclist.cpp; sourceTree = "<group>"; };
+		DA15A88514215C2F009E4104 /* calcimagehomography.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = calcimagehomography.cpp; sourceTree = "<group>"; };
+		DA15A88614215C2F009E4104 /* calibfilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = calibfilter.cpp; sourceTree = "<group>"; };
+		DA15A88714215C2F009E4104 /* camshift.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = camshift.cpp; sourceTree = "<group>"; };
+		DA15A88814215C2F009E4104 /* clique.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = clique.cpp; sourceTree = "<group>"; };
+		DA15A88914215C2F009E4104 /* compat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = compat.cpp; sourceTree = "<group>"; };
+		DA15A88A14215C2F009E4104 /* condens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = condens.cpp; sourceTree = "<group>"; };
+		DA15A88B14215C2F009E4104 /* contourtree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = contourtree.cpp; sourceTree = "<group>"; };
+		DA15A88C14215C2F009E4104 /* correspond.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = correspond.cpp; sourceTree = "<group>"; };
+		DA15A88D14215C2F009E4104 /* corrimages.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = corrimages.cpp; sourceTree = "<group>"; };
+		DA15A88E14215C2F009E4104 /* createhandmask.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = createhandmask.cpp; sourceTree = "<group>"; };
+		DA15A88F14215C2F009E4104 /* decomppoly.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = decomppoly.cpp; sourceTree = "<group>"; };
+		DA15A89014215C2F009E4104 /* dominants.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dominants.cpp; sourceTree = "<group>"; };
+		DA15A89114215C2F009E4104 /* dpstereo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dpstereo.cpp; sourceTree = "<group>"; };
+		DA15A89214215C2F009E4104 /* eigenobjects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eigenobjects.cpp; sourceTree = "<group>"; };
+		DA15A89314215C2F009E4104 /* enmin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enmin.cpp; sourceTree = "<group>"; };
+		DA15A89414215C2F009E4104 /* enteringblobdetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enteringblobdetection.cpp; sourceTree = "<group>"; };
+		DA15A89514215C2F009E4104 /* enteringblobdetectionreal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enteringblobdetectionreal.cpp; sourceTree = "<group>"; };
+		DA15A89614215C2F009E4104 /* epilines.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = epilines.cpp; sourceTree = "<group>"; };
+		DA15A89714215C2F009E4104 /* extendededges.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = extendededges.cpp; sourceTree = "<group>"; };
+		DA15A89814215C2F009E4104 /* face.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = face.cpp; sourceTree = "<group>"; };
+		DA15A89914215C2F009E4104 /* facedetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = facedetection.cpp; sourceTree = "<group>"; };
+		DA15A89A14215C2F009E4104 /* facetemplate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = facetemplate.cpp; sourceTree = "<group>"; };
+		DA15A89B14215C2F009E4104 /* findface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = findface.cpp; sourceTree = "<group>"; };
+		DA15A89C14215C2F009E4104 /* findhandregion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = findhandregion.cpp; sourceTree = "<group>"; };
+		DA15A89D14215C2F009E4104 /* hmm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hmm.cpp; sourceTree = "<group>"; };
+		DA15A89E14215C2F009E4104 /* hmm1d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hmm1d.cpp; sourceTree = "<group>"; };
+		DA15A89F14215C2F009E4104 /* hmmobs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hmmobs.cpp; sourceTree = "<group>"; };
+		DA15A8A014215C2F009E4104 /* image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = image.cpp; sourceTree = "<group>"; };
+		DA15A8A114215C2F009E4104 /* lcm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lcm.cpp; sourceTree = "<group>"; };
+		DA15A8A214215C2F009E4104 /* lee.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lee.cpp; sourceTree = "<group>"; };
+		DA15A8A314215C2F009E4104 /* levmar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = levmar.cpp; sourceTree = "<group>"; };
+		DA15A8A414215C2F009E4104 /* levmarprojbandle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = levmarprojbandle.cpp; sourceTree = "<group>"; };
+		DA15A8A514215C2F009E4104 /* levmartrif.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = levmartrif.cpp; sourceTree = "<group>"; };
+		DA15A8A614215C2F009E4104 /* lines.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lines.cpp; sourceTree = "<group>"; };
+		DA15A8A714215C2F009E4104 /* lmeds.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lmeds.cpp; sourceTree = "<group>"; };
+		DA15A8A814215C2F009E4104 /* morphcontours.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = morphcontours.cpp; sourceTree = "<group>"; };
+		DA15A8A914215C2F009E4104 /* morphing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = morphing.cpp; sourceTree = "<group>"; };
+		DA15A8AA14215C2F009E4104 /* pgh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pgh.cpp; sourceTree = "<group>"; };
+		DA15A8AB14215C2F009E4104 /* precomp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = precomp.cpp; sourceTree = "<group>"; };
+		DA15A8AC14215C2F009E4104 /* prewarp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = prewarp.cpp; sourceTree = "<group>"; };
+		DA15A8AD14215C2F009E4104 /* scanlines.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scanlines.cpp; sourceTree = "<group>"; };
+		DA15A8AE14215C2F009E4104 /* segment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = segment.cpp; sourceTree = "<group>"; };
+		DA15A8AF14215C2F009E4104 /* snakes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = snakes.cpp; sourceTree = "<group>"; };
+		DA15A8B014215C2F009E4104 /* subdiv2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = subdiv2.cpp; sourceTree = "<group>"; };
+		DA15A8B114215C2F009E4104 /* testseq.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testseq.cpp; sourceTree = "<group>"; };
+		DA15A8B214215C2F009E4104 /* texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = texture.cpp; sourceTree = "<group>"; };
+		DA15A8B314215C2F009E4104 /* trifocal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = trifocal.cpp; sourceTree = "<group>"; };
+		DA15A8B414215C2F009E4104 /* vecfacetracking.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vecfacetracking.cpp; sourceTree = "<group>"; };
+		DA15A8B514215C2F009E4104 /* video.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = video.cpp; sourceTree = "<group>"; };
+		DA15A90314215C64009E4104 /* blobtrack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = blobtrack.hpp; path = opencv2/legacy/blobtrack.hpp; sourceTree = SOURCE_ROOT; };
+		DA15A90414215C64009E4104 /* compat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = compat.hpp; path = opencv2/legacy/compat.hpp; sourceTree = SOURCE_ROOT; };
+		DA15A90514215C64009E4104 /* legacy.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = legacy.hpp; path = opencv2/legacy/legacy.hpp; sourceTree = SOURCE_ROOT; };
+		DA15A90614215C64009E4104 /* streams.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = streams.hpp; path = opencv2/legacy/streams.hpp; sourceTree = SOURCE_ROOT; };
 		DA62C794142139AF005F351B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DA62C7A214213A01005F351B /* libzlib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libzlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA62C7A614213A01005F351B /* zlib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "zlib-Prefix.pch"; sourceTree = "<group>"; };
@@ -784,6 +991,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DA15A85014215B7A009E4104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA15A85414215B7A009E4104 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA62C79F14213A01005F351B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -918,9 +1133,123 @@
 			name = Header;
 			sourceTree = "<group>";
 		};
+		DA15A85514215B7A009E4104 /* opencv_legacy */ = {
+			isa = PBXGroup;
+			children = (
+				DA15A86814215BC5009E4104 /* Header */,
+				DA15A86714215BC2009E4104 /* Source */,
+				DA15A85614215B7A009E4104 /* Supporting Files */,
+			);
+			path = opencv_legacy;
+			sourceTree = "<group>";
+		};
+		DA15A85614215B7A009E4104 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA15A85714215B7A009E4104 /* opencv_legacy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA15A86714215BC2009E4104 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DA15A86914215C2F009E4104 /* _facedetection.h */,
+				DA15A86A14215C2F009E4104 /* _matrix.h */,
+				DA15A86B14215C2F009E4104 /* _vectrack.h */,
+				DA15A86C14215C2F009E4104 /* _vm.h */,
+				DA15A86D14215C2F009E4104 /* face.h */,
+				DA15A86E14215C2F009E4104 /* facedetection.h */,
+				DA15A86F14215C2F009E4104 /* facetemplate.h */,
+				DA15A87014215C2F009E4104 /* precomp.hpp */,
+				DA15A87114215C2F009E4104 /* 3dtracker.cpp */,
+				DA15A87214215C2F009E4104 /* auxutils.cpp */,
+				DA15A87314215C2F009E4104 /* bgfg_estimation.cpp */,
+				DA15A87414215C2F009E4104 /* blobtrack.cpp */,
+				DA15A87514215C2F009E4104 /* blobtrackanalysis.cpp */,
+				DA15A87614215C2F009E4104 /* blobtrackanalysishist.cpp */,
+				DA15A87714215C2F009E4104 /* blobtrackanalysisior.cpp */,
+				DA15A87814215C2F009E4104 /* blobtrackanalysistrackdist.cpp */,
+				DA15A87914215C2F009E4104 /* blobtrackgen1.cpp */,
+				DA15A87A14215C2F009E4104 /* blobtrackgenyml.cpp */,
+				DA15A87B14215C2F009E4104 /* blobtrackingauto.cpp */,
+				DA15A87C14215C2F009E4104 /* blobtrackingcc.cpp */,
+				DA15A87D14215C2F009E4104 /* blobtrackingccwithcr.cpp */,
+				DA15A87E14215C2F009E4104 /* blobtrackingkalman.cpp */,
+				DA15A87F14215C2F009E4104 /* blobtrackinglist.cpp */,
+				DA15A88014215C2F009E4104 /* blobtrackingmsfg.cpp */,
+				DA15A88114215C2F009E4104 /* blobtrackingmsfgs.cpp */,
+				DA15A88214215C2F009E4104 /* blobtrackpostprockalman.cpp */,
+				DA15A88314215C2F009E4104 /* blobtrackpostproclinear.cpp */,
+				DA15A88414215C2F009E4104 /* blobtrackpostproclist.cpp */,
+				DA15A88514215C2F009E4104 /* calcimagehomography.cpp */,
+				DA15A88614215C2F009E4104 /* calibfilter.cpp */,
+				DA15A88714215C2F009E4104 /* camshift.cpp */,
+				DA15A88814215C2F009E4104 /* clique.cpp */,
+				DA15A88914215C2F009E4104 /* compat.cpp */,
+				DA15A88A14215C2F009E4104 /* condens.cpp */,
+				DA15A88B14215C2F009E4104 /* contourtree.cpp */,
+				DA15A88C14215C2F009E4104 /* correspond.cpp */,
+				DA15A88D14215C2F009E4104 /* corrimages.cpp */,
+				DA15A88E14215C2F009E4104 /* createhandmask.cpp */,
+				DA15A88F14215C2F009E4104 /* decomppoly.cpp */,
+				DA15A89014215C2F009E4104 /* dominants.cpp */,
+				DA15A89114215C2F009E4104 /* dpstereo.cpp */,
+				DA15A89214215C2F009E4104 /* eigenobjects.cpp */,
+				DA15A89314215C2F009E4104 /* enmin.cpp */,
+				DA15A89414215C2F009E4104 /* enteringblobdetection.cpp */,
+				DA15A89514215C2F009E4104 /* enteringblobdetectionreal.cpp */,
+				DA15A89614215C2F009E4104 /* epilines.cpp */,
+				DA15A89714215C2F009E4104 /* extendededges.cpp */,
+				DA15A89814215C2F009E4104 /* face.cpp */,
+				DA15A89914215C2F009E4104 /* facedetection.cpp */,
+				DA15A89A14215C2F009E4104 /* facetemplate.cpp */,
+				DA15A89B14215C2F009E4104 /* findface.cpp */,
+				DA15A89C14215C2F009E4104 /* findhandregion.cpp */,
+				DA15A89D14215C2F009E4104 /* hmm.cpp */,
+				DA15A89E14215C2F009E4104 /* hmm1d.cpp */,
+				DA15A89F14215C2F009E4104 /* hmmobs.cpp */,
+				DA15A8A014215C2F009E4104 /* image.cpp */,
+				DA15A8A114215C2F009E4104 /* lcm.cpp */,
+				DA15A8A214215C2F009E4104 /* lee.cpp */,
+				DA15A8A314215C2F009E4104 /* levmar.cpp */,
+				DA15A8A414215C2F009E4104 /* levmarprojbandle.cpp */,
+				DA15A8A514215C2F009E4104 /* levmartrif.cpp */,
+				DA15A8A614215C2F009E4104 /* lines.cpp */,
+				DA15A8A714215C2F009E4104 /* lmeds.cpp */,
+				DA15A8A814215C2F009E4104 /* morphcontours.cpp */,
+				DA15A8A914215C2F009E4104 /* morphing.cpp */,
+				DA15A8AA14215C2F009E4104 /* pgh.cpp */,
+				DA15A8AB14215C2F009E4104 /* precomp.cpp */,
+				DA15A8AC14215C2F009E4104 /* prewarp.cpp */,
+				DA15A8AD14215C2F009E4104 /* scanlines.cpp */,
+				DA15A8AE14215C2F009E4104 /* segment.cpp */,
+				DA15A8AF14215C2F009E4104 /* snakes.cpp */,
+				DA15A8B014215C2F009E4104 /* subdiv2.cpp */,
+				DA15A8B114215C2F009E4104 /* testseq.cpp */,
+				DA15A8B214215C2F009E4104 /* texture.cpp */,
+				DA15A8B314215C2F009E4104 /* trifocal.cpp */,
+				DA15A8B414215C2F009E4104 /* vecfacetracking.cpp */,
+				DA15A8B514215C2F009E4104 /* video.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		DA15A86814215BC5009E4104 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				DA15A90314215C64009E4104 /* blobtrack.hpp */,
+				DA15A90414215C64009E4104 /* compat.hpp */,
+				DA15A90514215C64009E4104 /* legacy.hpp */,
+				DA15A90614215C64009E4104 /* streams.hpp */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
 		DA62C786142139AF005F351B = {
 			isa = PBXGroup;
 			children = (
+				DA15A85514215B7A009E4104 /* opencv_legacy */,
 				DA15A81B142159FA009E4104 /* opencv_calib3d */,
 				DA62CA7214215091005F351B /* opencv_features2d */,
 				DA62CA3C14214F83005F351B /* opencv_video */,
@@ -951,6 +1280,7 @@
 				DA62CA3A14214F83005F351B /* libopencv_video.a */,
 				DA62CA7014215091005F351B /* libopencv_features2d.a */,
 				DA15A819142159FA009E4104 /* libopencv_calib3d.a */,
+				DA15A85314215B7A009E4104 /* libopencv_legacy.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1593,6 +1923,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DA15A85114215B7A009E4104 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA15A8B614215C2F009E4104 /* _facedetection.h in Headers */,
+				DA15A8B714215C2F009E4104 /* _matrix.h in Headers */,
+				DA15A8B814215C2F009E4104 /* _vectrack.h in Headers */,
+				DA15A8B914215C2F009E4104 /* _vm.h in Headers */,
+				DA15A8BA14215C2F009E4104 /* face.h in Headers */,
+				DA15A8BB14215C2F009E4104 /* facedetection.h in Headers */,
+				DA15A8BC14215C2F009E4104 /* facetemplate.h in Headers */,
+				DA15A8BD14215C2F009E4104 /* precomp.hpp in Headers */,
+				DA15A90714215C64009E4104 /* blobtrack.hpp in Headers */,
+				DA15A90814215C64009E4104 /* compat.hpp in Headers */,
+				DA15A90914215C64009E4104 /* legacy.hpp in Headers */,
+				DA15A90A14215C64009E4104 /* streams.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA62C7A014213A01005F351B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1781,6 +2130,29 @@
 			name = opencv_calib3d;
 			productName = opencv_calib3d;
 			productReference = DA15A819142159FA009E4104 /* libopencv_calib3d.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DA15A85214215B7A009E4104 /* opencv_legacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA15A85814215B7A009E4104 /* Build configuration list for PBXNativeTarget "opencv_legacy" */;
+			buildPhases = (
+				DA15A84F14215B7A009E4104 /* Sources */,
+				DA15A85014215B7A009E4104 /* Frameworks */,
+				DA15A85114215B7A009E4104 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA15A85C14215B9B009E4104 /* PBXTargetDependency */,
+				DA15A85E14215B9B009E4104 /* PBXTargetDependency */,
+				DA15A86014215B9B009E4104 /* PBXTargetDependency */,
+				DA15A86214215B9B009E4104 /* PBXTargetDependency */,
+				DA15A86414215B9B009E4104 /* PBXTargetDependency */,
+				DA15A86614215B9B009E4104 /* PBXTargetDependency */,
+			);
+			name = opencv_legacy;
+			productName = opencv_legacy;
+			productReference = DA15A85314215B7A009E4104 /* libopencv_legacy.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		DA62C7A114213A01005F351B /* zlib */ = {
@@ -1980,6 +2352,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				DA15A85214215B7A009E4104 /* opencv_legacy */,
+				DA15A818142159FA009E4104 /* opencv_calib3d */,
 				DA62CA6F14215091005F351B /* opencv_features2d */,
 				DA62CA3914214F83005F351B /* opencv_video */,
 				DA62CA0514214E2E005F351B /* opencv_ml */,
@@ -1990,7 +2364,6 @@
 				DA62C82314213B37005F351B /* libjpeg */,
 				DA62C7EF14213AAF005F351B /* libpng */,
 				DA62C7A114213A01005F351B /* zlib */,
-				DA15A818142159FA009E4104 /* opencv_calib3d */,
 			);
 		};
 /* End PBXProject section */
@@ -2014,6 +2387,82 @@
 				DA15A84A14215AA1009E4104 /* stereogc.cpp in Sources */,
 				DA15A84B14215AA1009E4104 /* stereosgbm.cpp in Sources */,
 				DA15A84C14215AA1009E4104 /* triangulate.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA15A84F14215B7A009E4104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA15A8BE14215C2F009E4104 /* 3dtracker.cpp in Sources */,
+				DA15A8BF14215C2F009E4104 /* auxutils.cpp in Sources */,
+				DA15A8C014215C2F009E4104 /* bgfg_estimation.cpp in Sources */,
+				DA15A8C114215C2F009E4104 /* blobtrack.cpp in Sources */,
+				DA15A8C214215C2F009E4104 /* blobtrackanalysis.cpp in Sources */,
+				DA15A8C314215C2F009E4104 /* blobtrackanalysishist.cpp in Sources */,
+				DA15A8C414215C2F009E4104 /* blobtrackanalysisior.cpp in Sources */,
+				DA15A8C514215C2F009E4104 /* blobtrackanalysistrackdist.cpp in Sources */,
+				DA15A8C614215C2F009E4104 /* blobtrackgen1.cpp in Sources */,
+				DA15A8C714215C2F009E4104 /* blobtrackgenyml.cpp in Sources */,
+				DA15A8C814215C2F009E4104 /* blobtrackingauto.cpp in Sources */,
+				DA15A8C914215C2F009E4104 /* blobtrackingcc.cpp in Sources */,
+				DA15A8CA14215C2F009E4104 /* blobtrackingccwithcr.cpp in Sources */,
+				DA15A8CB14215C2F009E4104 /* blobtrackingkalman.cpp in Sources */,
+				DA15A8CC14215C2F009E4104 /* blobtrackinglist.cpp in Sources */,
+				DA15A8CD14215C2F009E4104 /* blobtrackingmsfg.cpp in Sources */,
+				DA15A8CE14215C2F009E4104 /* blobtrackingmsfgs.cpp in Sources */,
+				DA15A8CF14215C2F009E4104 /* blobtrackpostprockalman.cpp in Sources */,
+				DA15A8D014215C2F009E4104 /* blobtrackpostproclinear.cpp in Sources */,
+				DA15A8D114215C2F009E4104 /* blobtrackpostproclist.cpp in Sources */,
+				DA15A8D214215C2F009E4104 /* calcimagehomography.cpp in Sources */,
+				DA15A8D314215C2F009E4104 /* calibfilter.cpp in Sources */,
+				DA15A8D414215C2F009E4104 /* camshift.cpp in Sources */,
+				DA15A8D514215C2F009E4104 /* clique.cpp in Sources */,
+				DA15A8D614215C2F009E4104 /* compat.cpp in Sources */,
+				DA15A8D714215C2F009E4104 /* condens.cpp in Sources */,
+				DA15A8D814215C2F009E4104 /* contourtree.cpp in Sources */,
+				DA15A8D914215C2F009E4104 /* correspond.cpp in Sources */,
+				DA15A8DA14215C2F009E4104 /* corrimages.cpp in Sources */,
+				DA15A8DB14215C2F009E4104 /* createhandmask.cpp in Sources */,
+				DA15A8DC14215C2F009E4104 /* decomppoly.cpp in Sources */,
+				DA15A8DD14215C2F009E4104 /* dominants.cpp in Sources */,
+				DA15A8DE14215C2F009E4104 /* dpstereo.cpp in Sources */,
+				DA15A8DF14215C2F009E4104 /* eigenobjects.cpp in Sources */,
+				DA15A8E014215C2F009E4104 /* enmin.cpp in Sources */,
+				DA15A8E114215C2F009E4104 /* enteringblobdetection.cpp in Sources */,
+				DA15A8E214215C2F009E4104 /* enteringblobdetectionreal.cpp in Sources */,
+				DA15A8E314215C2F009E4104 /* epilines.cpp in Sources */,
+				DA15A8E414215C2F009E4104 /* extendededges.cpp in Sources */,
+				DA15A8E514215C2F009E4104 /* face.cpp in Sources */,
+				DA15A8E614215C2F009E4104 /* facedetection.cpp in Sources */,
+				DA15A8E714215C2F009E4104 /* facetemplate.cpp in Sources */,
+				DA15A8E814215C2F009E4104 /* findface.cpp in Sources */,
+				DA15A8E914215C2F009E4104 /* findhandregion.cpp in Sources */,
+				DA15A8EA14215C2F009E4104 /* hmm.cpp in Sources */,
+				DA15A8EB14215C2F009E4104 /* hmm1d.cpp in Sources */,
+				DA15A8EC14215C2F009E4104 /* hmmobs.cpp in Sources */,
+				DA15A8ED14215C2F009E4104 /* image.cpp in Sources */,
+				DA15A8EE14215C2F009E4104 /* lcm.cpp in Sources */,
+				DA15A8EF14215C2F009E4104 /* lee.cpp in Sources */,
+				DA15A8F014215C2F009E4104 /* levmar.cpp in Sources */,
+				DA15A8F114215C2F009E4104 /* levmarprojbandle.cpp in Sources */,
+				DA15A8F214215C2F009E4104 /* levmartrif.cpp in Sources */,
+				DA15A8F314215C2F009E4104 /* lines.cpp in Sources */,
+				DA15A8F414215C2F009E4104 /* lmeds.cpp in Sources */,
+				DA15A8F514215C2F009E4104 /* morphcontours.cpp in Sources */,
+				DA15A8F614215C2F009E4104 /* morphing.cpp in Sources */,
+				DA15A8F714215C2F009E4104 /* pgh.cpp in Sources */,
+				DA15A8F814215C2F009E4104 /* precomp.cpp in Sources */,
+				DA15A8F914215C2F009E4104 /* prewarp.cpp in Sources */,
+				DA15A8FA14215C2F009E4104 /* scanlines.cpp in Sources */,
+				DA15A8FB14215C2F009E4104 /* segment.cpp in Sources */,
+				DA15A8FC14215C2F009E4104 /* snakes.cpp in Sources */,
+				DA15A8FD14215C2F009E4104 /* subdiv2.cpp in Sources */,
+				DA15A8FE14215C2F009E4104 /* testseq.cpp in Sources */,
+				DA15A8FF14215C2F009E4104 /* texture.cpp in Sources */,
+				DA15A90014215C2F009E4104 /* trifocal.cpp in Sources */,
+				DA15A90114215C2F009E4104 /* vecfacetracking.cpp in Sources */,
+				DA15A90214215C2F009E4104 /* video.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2310,6 +2759,36 @@
 			target = DA62C8A714213C05005F351B /* opencv_core */;
 			targetProxy = DA15A82714215A30009E4104 /* PBXContainerItemProxy */;
 		};
+		DA15A85C14215B9B009E4104 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA15A818142159FA009E4104 /* opencv_calib3d */;
+			targetProxy = DA15A85B14215B9B009E4104 /* PBXContainerItemProxy */;
+		};
+		DA15A85E14215B9B009E4104 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA62CA6F14215091005F351B /* opencv_features2d */;
+			targetProxy = DA15A85D14215B9B009E4104 /* PBXContainerItemProxy */;
+		};
+		DA15A86014215B9B009E4104 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA62CA3914214F83005F351B /* opencv_video */;
+			targetProxy = DA15A85F14215B9B009E4104 /* PBXContainerItemProxy */;
+		};
+		DA15A86214215B9B009E4104 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA62C9A514214CD4005F351B /* opencv_flann */;
+			targetProxy = DA15A86114215B9B009E4104 /* PBXContainerItemProxy */;
+		};
+		DA15A86414215B9B009E4104 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA62C909142147A3005F351B /* opencv_imgproc */;
+			targetProxy = DA15A86314215B9B009E4104 /* PBXContainerItemProxy */;
+		};
+		DA15A86614215B9B009E4104 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA62C8A714213C05005F351B /* opencv_core */;
+			targetProxy = DA15A86514215B9B009E4104 /* PBXContainerItemProxy */;
+		};
 		DA62C90514213CBD005F351B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DA62C7A114213A01005F351B /* zlib */;
@@ -2383,6 +2862,32 @@
 				DSTROOT = /tmp/opencv_calib3d.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "opencv_calib3d/opencv_calib3d-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/\"";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA15A85914215B7A009E4104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/opencv_legacy.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "opencv_legacy/opencv_legacy-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/\"";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA15A85A14215B7A009E4104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/opencv_legacy.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "opencv_legacy/opencv_legacy-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/\"";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2680,6 +3185,14 @@
 			buildConfigurations = (
 				DA15A81F142159FA009E4104 /* Debug */,
 				DA15A820142159FA009E4104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA15A85814215B7A009E4104 /* Build configuration list for PBXNativeTarget "opencv_legacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA15A85914215B7A009E4104 /* Debug */,
+				DA15A85A14215B7A009E4104 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

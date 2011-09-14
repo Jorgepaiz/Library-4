@@ -13,9 +13,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DA62C790142139AF005F351B"
-               BuildableName = "libOpenCV-Library.a"
-               BlueprintName = "OpenCV-Library"
+               BlueprintIdentifier = "DA15A85214215B7A009E4104"
+               BuildableName = "libopencv_legacy.a"
+               BlueprintName = "opencv_legacy"
                ReferencedContainer = "container:OpenCV-Library.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
